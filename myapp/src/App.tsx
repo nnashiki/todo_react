@@ -6,11 +6,10 @@ import SimpleContainer from './SimpleContainer'
 
 function App() {
   return (
-    
-<React.Fragment>
-<ButtonAppBar/>
-    <SimpleContainer/>
-</React.Fragment>
+  <>
+  <ButtonAppBar/>
+     <SimpleContainer/>
+  </>
   );
 }
 
